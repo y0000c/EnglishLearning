@@ -1,0 +1,38 @@
+<resources>
+    <string name="app_name">爱单词</string>
+    <string name="login_text">登录</string>
+
+    <!--splash界面-->
+    <string name="splash_des_bg_img">Splash界面中的背景图片</string>
+    <string name="splash_text_welcome">欢迎来到爱学习</string>
+
+    <!--Login界面-->
+    <string name="login_hint_user_name">输入账号</string>
+    <string name="login_hint_password">输入密码</string>
+    <string name="login_des_header_img">用户头像</string>
+
+    <!--Main界面-->
+    <string name="main_title">爱单词</string>
+    <string name="main_array_study">学习</string>
+    <string name="main_array_mine">个人</string>
+
+
+    <!--单词详细显示界面-->
+    <string name="detail_btn_known">认识</string>
+    <string name="detail_btn_unknown">不认识</string>
+    <string name="detail_btn_next">下一个</string>
+
+
+    <!--toolbar-->
+    <string name="toolbar_collection">收藏</string>
+    <string name="toolbar_search">搜索</string>
+    <string name="toolbar_delete">刪除</string>
+
+
+    <string-array name="test">
+        <item>111</item>
+        <item>111</item>
+        <item>111</item>
+        <item>111</item>
+    </string-array>
+</resources>

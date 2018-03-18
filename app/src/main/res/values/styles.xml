@@ -1,0 +1,19 @@
+<resources>
+
+    <!--app 主题style-->
+    <style name="AppTheme" parent="AppTheme.Base"/>
+
+    <!--基类style-->
+    <style name="AppTheme.Base" parent="Theme.AppCompat.Light.DarkActionBar">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+
+        <item name="colorPrimary">@color/skin_main_color</item>
+        <item name="colorPrimaryDark">@color/skin_main_color</item>
+        <item name="colorAccent">@color/skin_main_color</item>
+
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+    </style>
+
+</resources>

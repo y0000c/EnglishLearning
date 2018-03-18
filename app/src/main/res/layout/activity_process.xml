@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#1123d6da"
+    tools:context="demo.yc.englishlearning.activity.ProcessActivity">
+
+    <include
+        layout="@layout/common_tool_bar"/>
+
+
+    <!--学习开始-->
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:paddingEnd="25dp"
+        android:paddingStart="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="开始学习"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/process_date"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|end"
+            android:text="1111"
+            android:textColor="#333"/>
+    </LinearLayout>
+
+    <!--单词总数-->
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:paddingEnd="25dp"
+        android:paddingStart="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="单词总数"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/process_word_total"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|end"
+            android:text="1111"
+            android:textColor="#333"/>
+    </LinearLayout>
+
+    <!--学习个数-->
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:paddingEnd="25dp"
+        android:paddingStart="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="学习单词"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/process_learned"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|end"
+            android:text="1111"
+            android:textColor="#333"/>
+    </LinearLayout>
+
+    <!--收藏个数-->
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:paddingEnd="25dp"
+        android:paddingStart="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="收藏单词"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/process_collect"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|end"
+            android:text="1111"
+            android:textColor="#333"/>
+    </LinearLayout>
+
+
+    <!--学习检测个数-->
+    <LinearLayout
+        android:background="#fff"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_marginTop="5dp"
+        android:paddingEnd="25dp"
+        android:paddingStart="25dp">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:text="单词检测"/>
+
+        <TextView
+            android:textSize="16sp"
+            android:id="@+id/process_test"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:gravity="center|end"
+            android:text="1111"
+            android:textColor="#333"/>
+    </LinearLayout>
+
+</LinearLayout>

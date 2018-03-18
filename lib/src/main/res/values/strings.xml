@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">lib</string>
+
+    <string name="no_layout_file_id">没有找到对应的布局文件</string>
+</resources>

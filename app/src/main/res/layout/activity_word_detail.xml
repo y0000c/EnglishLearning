@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="demo.yc.englishlearning.activity.WordDetailActivity">
+
+    <include
+        layout="@layout/common_tool_bar"/>
+
+    <!--需要用于搜索，学习，检测，模块中使用-->
+    <!--有两层，一层是学习和检测使用，用于判断是否认识-->
+    <!--        二层是全部模块使用，显示单词的详细信息-->
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:id="@+id/word_known_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:visibility="gone">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1"
+                android:orientation="vertical">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="单词拼写"
+                    android:textColor="#222"
+                    android:textSize="18sp"/>
+            </LinearLayout>
+
+            <Button
+                android:id="@+id/detail_known_btn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#eee"
+                android:gravity="center"
+                android:text="@string/detail_btn_known"
+                android:textColor="#000"
+                android:textSize="16sp"/>
+
+            <Button
+                android:id="@+id/detail_unknown_btn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="5dp"
+                android:background="#eee"
+                android:gravity="center"
+                android:text="@string/detail_btn_unknown"
+                android:textColor="#000"
+                android:textSize="16sp"/>
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/word_detail_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <!--单词学习进度ui(学习、检测、收藏模块需要)-->
+                    <!--单词拼写和翻译ui（全部模块都需要）-->
+                    <!--下一个单词按钮ui(学习，检测，收藏模块需要)-->
+
+
+                </LinearLayout>
+            </ScrollView>
+
+            <Button
+                android:id="@+id/detail_next_btn"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_margin="10dp"
+                android:background="#eee"
+                android:gravity="center"
+                android:text="@string/detail_btn_next"/>
+        </LinearLayout>
+
+    </FrameLayout>
+
+</LinearLayout>

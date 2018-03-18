@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#556cd5e6"
+    android:orientation="vertical"
+    tools:context="demo.yc.englishlearning.activity.EditInfoActivity">
+
+    <include
+        layout="@layout/common_tool_bar"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingBottom="40dp"
+        android:paddingTop="40dp"
+    >
+        <ImageView
+            android:id="@+id/edit_icon"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_centerHorizontal="true"
+            android:src="@mipmap/ic_launcher"/>
+
+        <TextView
+            android:id="@+id/edit_change"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentEnd="true"
+            android:layout_centerVertical="true"
+            android:layout_marginEnd="10dp"
+            android:drawableEnd="@drawable/right"
+            android:drawablePadding="5dp"
+            android:text="修改头像"
+            android:textColor="#44000000"
+            android:textSize="13sp"/>
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:padding="20dp">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="个人昵称:"
+            android:textColor="#aaa"/>
+        <EditText
+            android:id="@+id/edit_input"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="20dp"
+            android:layout_marginStart="20dp"
+            android:maxLength="10"
+            android:text="111111"/>
+
+
+    </LinearLayout>
+
+    <Button
+        android:textColor="#fff"
+        android:id="@+id/edit_save_btn"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:layout_margin="30dp"
+        android:background="@drawable/com_button_selector"
+        android:text="保存修改"/>
+</LinearLayout>
